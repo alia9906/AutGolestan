@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#000000">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/TextViewColor"
+    android:text="برنامه های پیشنهادی"
+    android:layout_gravity="center"
+    android:textSize="20sp"
+    android:padding="7sp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:background="#000000">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="22"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/timing"
+        android:textAlignment="center"
+        style="@style/TextViewColor"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="22"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ostads"
+        android:textAlignment="center"
+        style="@style/TextViewColor"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="40"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/numofvahed"
+        style="@style/TextViewColor"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="16"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/radif"
+        style="@style/TextViewColor"
+        android:textSize="20sp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="12"
+            android:visibility="invisible"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="76"
+            android:layout_height="5sp"
+            android:background="#808080"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="91"
+        android:id="@+id/planslistview">
+    </ListView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|bottom"
+        android:background="#00000000">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:background="#00000000">
+            <ImageView
+                android:id="@+id/planredoguessing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:src="@mipmap/redo"
+                android:background="#00000000"/>
+            <ImageView
+                android:id="@+id/plancustom"
+                android:padding="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/add"
+                android:background="#00000000"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="#00000000"
+            android:clickable="false"/>
+    </LinearLayout>
+</FrameLayout>

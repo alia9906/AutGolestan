@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/planviewimage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <ImageView
+    android:id="@+id/planbackgroundimageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@mipmap/plan_view_720p" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:weightSum="100">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="98"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher"
+            android:visibility="invisible"
+            android:text="sds"/>
+        <ImageView
+            android:id="@+id/optionsforplan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/actionsfinal"
+            />
+    </LinearLayout>
+
+</FrameLayout>

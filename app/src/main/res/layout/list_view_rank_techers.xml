@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+    android:background="#000000">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_weight="2"/>
+        <SeekBar
+            android:id="@+id/seekBar_teacher"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="0dp"
+            android:layout_weight="64"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5"
+            android:layout_gravity="center"
+            android:background="@mipmap/seekbar_background"/>
+        <TextView
+            android:id="@+id/teacher_text"
+            android:layout_width="0dp"
+            android:layout_weight="34"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="5sp"
+            android:text="ddddddddddddddddddddddddd"
+            android:textColor="#888888"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </LinearLayout>

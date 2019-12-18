@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Auto Golestan</string>
+    <string name="putinidfirst">ابتدا شماره دانشجویی خود را در حساب کاربری ثبت کنید.</string>
+    <string name="putin212first">ابتدا گزارش 212 را در نرم افزار ثبت کنید.</string>
+    <string name="putinbarnamefirst">ابتدا برنامه درسی را در نرم افزار ثبت کنید.</string>
+    <string name="saved">ثبت شد.</string>
+    <string name="curruptedsavingprocess">ثبت 212 مختل شد. دوباره امتحان کنید.</string>
+    <string name="title">انتخاب واحد اتوماتیک گلستان</string>
+    <string name="btn212">ثبت گزارش 212 در نرم افزار</string>
+    <string name="btnradif">ثبت برنامه انتخابی در نرم افزار</string>
+    <string name="btnapply">شروع به انتخاب واحد در سیستم</string>
+    <string name="sid">شماره دانشجویی</string>
+    <string name="date">تاریخ دقیق انتخاب واحد</string>
+    <string name="applydate">گذاردن</string>
+    <string name="mismatchidnum">عدم تطابق شماره دانشجویی با حساب کاربری.</string>
+    <string name="account">حساب کاربری</string>
+    <string name="infoforchoosingbaselessons">درس هایی که الزاما در برنامه نهایی وجود خواهند داشت.</string>
+    <string name="infoforchoosingneedlesslessons">درس هایی که ممکن است در برنامه نهایی وجود داشته باشند.</string>
+    <string name="nothingischosen">هیچ درسی انتخاب نکردید.</string>
+    <string name="choosemain">درس های ضروری را انتخاب کنید</string>
+    <string name="chooseneedless">درس های غیر ضروری را انتخاب کنید</string>
+    <string name="done">انجام شد</string>
+    <string name="thisitemisinneedlasslessons">این درس در لیست غیر ضروری است.</string>
+    <string name="thisitemisinmainlessons">این درس در لیست ضروری است.</string>
+    <string name="domain">آدرس سایت سیستم گلستان</string>
+    <string name="connecttonet">لطفا به اینترنت متصل شوید.</string>
+    <string name="sidinvalid">شماره دانشجویی نامعتبر است.</string>
+    <string name="dateinvalid">تاریخ انتخاب واحد گذشته است.</string>
+    <string name="urlinvalid">سایت گلستان وارد شده وجود ندارد.</string>
+    <string name="radif">ردیف</string>
+    <string name="numofvahed">تعداد واحد</string>
+    <string name="ostads">اساتید</string>
+    <string name="timing">زمان بندی</string>
+    <string-array name="plan_menue">
+        <item>انتخاب این برنامه به عنوان اصلی</item>
+        <item>اضافه کردن درس</item>
+        <item>حذف این برنامه</item>
+    </string-array>
+    <string name="noplanexists">هیچ برنامه ای با درس های ضروری داده شده وجود ندارد.</string>
+    <string name="ok">بله</string>
+    <string name="cancel">خیر</string>
+    <string name="reallyredoall">از اول شروع می کنید ؟</string>
+    <string name="doyouwanttosetdefault">انتخاب این برنامه به عنوان برنامه اصلی ؟</string>
+    <string name="chooseatleastsome">حداقل یک درس انتخاب کنید.</string>
+    <string name="sex">جنسیت</string>
+    <string name="areyousureonetimeuse">فقط یک بار می توانید استفاده کنید. ادامه می دهید؟</string>
+    <string name="initilizingthedoing">initilizing ... </string>
+</resources>

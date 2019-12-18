@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:weightSum="100"
+    android:id="@+id/rootca0">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40" >
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|right"
+            >
+
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/questionicon" />
+
+            <ImageView
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/accounticon" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:text=""/>
+            <Button
+                android:id="@+id/but212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn212"
+                android:textColor="#FFFFFF"
+                android:background="@mipmap/btn_background_norm" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:text=""/>
+            <Button
+                android:id="@+id/butradif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnradif"
+                android:textColor="#FFFFFF"
+                android:background="@mipmap/btn_background_norm" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/butapply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnapply"
+                android:textColor="#FFFFFF"
+                android:background="@mipmap/btn_background_norm" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

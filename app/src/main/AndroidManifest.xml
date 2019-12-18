@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.ateck.autogolestan">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".d"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".h"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".f"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".n"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".v"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".aa"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".i"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".w"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".g"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ac"
+            android:screenOrientation="portrait"/>
+    </application>
+</manifest>
